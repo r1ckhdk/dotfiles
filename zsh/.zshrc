@@ -108,5 +108,4 @@ alias gs='git status'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias dotfiles='/usr/bin/git --git-dir=/home/${HOME}/.dotfiles/ --work-tree=/${HOME}/rick.hokama'
 fpath+=${ZDOTDIR:-~}/.zsh_functions
