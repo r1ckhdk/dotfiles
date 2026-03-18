@@ -120,4 +120,6 @@ alias hpc='ssh marvin'
 
 . "$HOME/.cargo/env"
 
-source ~/.bash_profile
+if [ -t 1 ] && command -v zsh >/dev/null 2>&1; then
+  exec zsh
+fi
