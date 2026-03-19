@@ -20,7 +20,7 @@ case "$HOSTNAME" in
     ;;
 esac
 
-ZSH_THEME="risto"
+#ZSH_THEME="risto"
 #ZSH_THEME="candy"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
