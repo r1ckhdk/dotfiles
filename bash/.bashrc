@@ -118,7 +118,7 @@ fi
 # hpc alias
 alias hpc='ssh marvin'
 
-. "$HOME/.cargo/env"
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
 if [ -t 1 ] && command -v zsh >/dev/null 2>&1; then
   exec zsh
