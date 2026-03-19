@@ -119,3 +119,6 @@ alias ll='ls -la --color=auto'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+# Change squeue format
+export SQUEUE_FORMAT="%.18i %.18P %.18j %.20u %.8T %.10M %.10l %.4D %.4C %.7m %.20V %.20S %R"
