@@ -55,8 +55,8 @@ theme = Black Metal (Venom)
 foreground = Grey74
 background = Grey11
 
-palette = 1 = #591818
-palette = 9 = #591818
+palette = 1 = #ae2029
+palette = 9 = #ae2029
 
 palette = 4 = #9E1300
 palette = 12 = #9E1300

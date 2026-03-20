@@ -16,7 +16,7 @@ case "$HOSTNAME" in
     ZSH_THEME="risto"
     ;;
   *)
-    ZSH_THEME="candy"
+    ZSH_THEME="amuse"
     ;;
 esac
 
