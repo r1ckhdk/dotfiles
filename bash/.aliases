@@ -1,1 +1,10 @@
 alias hpc='ssh marvin'
+
+alias aptupd='sudo apt update'
+alias aptupg='sudo apt upgrade -y'
+
+# functions
+
+mkcd() {
+  mkdir -p "$1" && cd "$1"
+}
