@@ -89,7 +89,6 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
 
 # User configuration
-alias hpc='ssh marvin'
 alias ll='ls -la --color=auto'
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -122,3 +121,9 @@ fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 # Change squeue format
 export SQUEUE_FORMAT="%.18i %.18P %.18j %.20u %.8T %.10M %.10l %.4D %.4C %.7m %.20V %.20S %R"
+
+
+# Aliases
+if [ -f ~/.aliases ]; then
+  . ~/.aliases
+fi
