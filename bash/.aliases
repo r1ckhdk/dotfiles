@@ -3,6 +3,8 @@ alias hpc='ssh marvin'
 alias aptupd='sudo apt update'
 alias aptupg='sudo apt upgrade -y'
 
+alias weather='clear && curl wttr.in'
+
 # functions
 
 mkcd() {
