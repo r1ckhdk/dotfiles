@@ -10,3 +10,7 @@ alias weather='clear && curl wttr.in'
 mkcd() {
   mkdir -p "$1" && cd "$1"
 }
+
+aptins() {
+    sudo apt install "$@"
+}
