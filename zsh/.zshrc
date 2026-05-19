@@ -74,6 +74,12 @@ esac
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
+HISTSIZE=50000
+SAVEHIST=50000
+HISTFILE=$HOME/.zsh_history
+
+setopt share_history
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -89,6 +95,8 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
 
 # User configuration
+unset LS_COLORS
+alias ls='ls --color=auto'
 alias ll='ls -la --color=auto'
 
 # export MANPATH="/usr/local/man:$MANPATH"

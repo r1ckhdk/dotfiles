@@ -1,12 +1,30 @@
+# ssh
 alias hpc='ssh marvin'
 
+# safety nets
+alias mv='mv -i'
+alias rm='rm -i'
+
+# service management
+alias sstart='sudo systemctl start'
+alias sstop='sudo systemctl stop'
+alias sstatus='sudo systemctl status'
+alias srestart='sudo systemctl restart'
+alias senable='sudo systemctl enable'
+alias sdisable='sudo systemctl disable'
+
+# network
+alias myip='curl -s ifconfig.me'
+alias localip="ip addr show | grep 'inet ' | grep -v '127.0.0.1'"
+
+# package management
 alias aptupd='sudo apt update'
 alias aptupg='sudo apt upgrade -y'
 
+# misc
 alias weather='clear && curl wttr.in'
 
 # functions
-
 mkcd() {
   mkdir -p "$1" && cd "$1"
 }
