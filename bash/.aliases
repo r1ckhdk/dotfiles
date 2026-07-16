@@ -1,5 +1,5 @@
 # ssh
-alias hpc='ssh marvin'
+alias hpc='ssh -X marvin'
 
 # safety nets
 alias mv='mv -i'
