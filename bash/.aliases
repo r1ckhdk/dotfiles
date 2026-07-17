@@ -5,6 +5,11 @@ alias hpc='ssh -X marvin'
 alias mv='mv -i'
 alias rm='rm -i'
 
+# ls
+alias lahrt='ls -lahrt'
+alias lah='ls -lah'
+
+
 # service management
 alias sstart='sudo systemctl start'
 alias sstop='sudo systemctl stop'

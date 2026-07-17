@@ -3,3 +3,5 @@
 	email = rick@riseup.net
 [init]
 	defaultBranch = main
+[safe]
+	directory = /opt/adm_scripts/mgm-acls-services
