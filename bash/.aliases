@@ -26,6 +26,11 @@ alias localip="ip addr show | grep 'inet ' | grep -v '127.0.0.1'"
 alias aptupd='sudo apt update'
 alias aptupg='sudo apt upgrade -y'
 
+aptins() {
+    sudo apt install "$@"
+}
+
+
 # misc
 alias weather='clear && curl wttr.in'
 
@@ -34,6 +39,3 @@ mkcd() {
   mkdir -p "$1" && cd "$1"
 }
 
-aptins() {
-    sudo apt install "$@"
-}
