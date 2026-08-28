@@ -3,6 +3,7 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export ZSH_CUSTOM=~/dotfiles/zsh/custom
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -16,7 +17,7 @@ case "$HOSTNAME" in
     ZSH_THEME="risto"
     ;;
   *)
-    ZSH_THEME="amuse"
+    ZSH_THEME="amuse-custom"
     ;;
 esac
 
