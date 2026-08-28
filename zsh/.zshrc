@@ -12,14 +12,16 @@ export ZSH_CUSTOM=~/dotfiles/zsh/custom
 
 HOSTNAME=$(hostname -s)
 
-case "$HOSTNAME" in
-  marvin)
-    ZSH_THEME="risto"
-    ;;
-  *)
-    ZSH_THEME="amuse-custom"
-    ;;
-esac
+#case "$HOSTNAME" in
+#  marvin)
+#    ZSH_THEME="risto"
+#    ;;
+#  *)
+#    ZSH_THEME="amuse-custom"
+#    ;;
+#esac
+
+ZSH_THEME="amuse-custom"
 
 #ZSH_THEME="risto"
 #ZSH_THEME="candy"
