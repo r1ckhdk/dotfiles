@@ -48,16 +48,14 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
+term = xterm
+
 mouse-hide-while-typing = true
 
 # window
-window-height = 70
-window-width = 110
-
-#window-padding-x = 12
-#window-padding-y = 12
-
-window-decoration = false
+#window-height = 70
+#window-width = 110
+#window-decoration = false
 
 # background
 background-opacity = 0.80
